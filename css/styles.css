@@ -182,9 +182,8 @@ ul {
   margin-right: 10px;
   align-items: center;
 }
-.icon-mailo {
+.icon-mailo { 
   display: flex;
-  margin-right: 10px;
   align-items: center;
 }
 .icon-phone:hover,
@@ -200,8 +199,7 @@ ul {
 /* Hero */
 /* Hero title*/
 /* Overlay */
-.img-hero {
-  height: 600px;
+.img-hero {  
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -462,13 +460,15 @@ ul {
 .project-item {
   display: block;
 }
-
-.project-item:hover,
-:focus {
+.link-project{
+  display: block;
+}
+.link-project:hover,
+.link-project:focus {
   box-shadow: 0px 1px 1px var(--box-shadow-project-item-one),
     0px 4px 4px var(--box-shadow-project-item-two), 1px 4px 6px var(--box-shadow-project-item-three);
 }
-.link-project-item{
+.link-project {
   text-decoration: none;
 }
 .works {
@@ -629,7 +629,7 @@ ul {
   line-height: 1.71;
   text-decoration: none;
 }
-.footer-auth a:hover,
-.footer-auth a:focus {
+.mail-link:hover,
+.mail-link:focus {
   color: var(--akcent-color);
 }
