@@ -165,9 +165,11 @@ ul {
 }
 
 .auth-item {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
+  fill: currentColor;
 
   color: var(--secondary-teks-color);
   text-decoration: none;
@@ -178,11 +180,9 @@ ul {
   color: var(--akcent-color);
 }
 .icon-phone {
-  display: flex;
   margin-right: 10px;
-  align-items: center;
 }
-.icon-mailo { 
+.icon-mailo {
   display: flex;
   align-items: center;
 }
@@ -199,7 +199,7 @@ ul {
 /* Hero */
 /* Hero title*/
 /* Overlay */
-.img-hero {  
+.img-hero {
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -460,7 +460,7 @@ ul {
 .project-item {
   display: block;
 }
-.link-project{
+.link-project {
   display: block;
 }
 .link-project:hover,
